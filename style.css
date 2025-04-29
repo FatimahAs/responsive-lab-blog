@@ -498,7 +498,88 @@ header img {
         border-top: 1px solid #ccc;
         display: flex;
         justify-content: space-around;
-        padding: 10px 0;
+        padding: 6px 0;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .bottom-menu a {
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .bottom-menu img {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    nav ul {
+        display: none
+    }
+
+    nav img {
+        width: 5%;
+    }
+
+    nav .signup {
+        padding: 4px 4px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #85858536;
+        cursor: pointer;
+        font-size: xx-small;
+    }
+
+    nav .signin {
+        padding: 4px 4px;
+        border-radius: 5px;
+        background-color: #333;
+        border: 1px solid #85858536;
+        cursor: pointer;
+        font-size: xx-small;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    header img {
+        width: 70%;
+    }
+
+    .small-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        gap: 5px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .bottom-menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+        display: flex;
+        justify-content: space-around;
+        padding: 6px 0;
         box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     }
 
@@ -511,5 +592,16 @@ header img {
 
     .bottom-menu img {
         width: 10%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 989px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: small;
+        width: 30%;
     }
 }
