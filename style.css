@@ -621,6 +621,19 @@ header img {
         font-size: small;
         width: 30%;
     }
+
+    .tags {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 30%;
+    }
+
+    .tags span {
+        display: flex;
+        justify-content: center;
+        background: #ddd;
+        font-size: 14px;
+    }
 }
 
 
