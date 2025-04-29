@@ -439,25 +439,25 @@ header img {
     }
 
     nav img {
-        width: 6%;
+        width: 5%;
     }
 
     nav .signup {
-        padding: 5px 10px;
+        padding: 4px 4px;
         border-radius: 5px;
         background-color: #fff;
         border: 1px solid #85858536;
         cursor: pointer;
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     nav .signin {
-        padding: 5px 10px;
+        padding: 4px 4px;
         border-radius: 5px;
         background-color: #333;
         border: 1px solid #85858536;
         cursor: pointer;
-        font-size: x-small;
+        font-size: xx-small;
     }
 
     header {
@@ -474,6 +474,7 @@ header img {
         flex-direction: row;
         justify-content: center;
         justify-items: center;
+        gap: 5px;
     }
 
     .main {
