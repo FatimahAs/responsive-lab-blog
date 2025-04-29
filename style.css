@@ -469,6 +469,12 @@ header img {
         width: 70%;
     }
 
+    .post-content h2 {
+        margin: 0 0 10px;
+        font-size: 15px;
+        color: #333;
+    }
+
     .small-button {
         display: flex;
         flex-direction: row;
@@ -596,6 +602,17 @@ header img {
 }
 
 @media only screen and (min-width: 700px) and (max-width: 989px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: small;
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
     nav ul {
         display: flex;
         justify-content: space-between;
